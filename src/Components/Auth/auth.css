@@ -1,0 +1,118 @@
+.link-to-login{
+    text-align: left;
+    padding: 0px;
+    margin-left: 15px;
+    margin-bottom: 0px;
+}
+
+.welcome-message{
+    text-align: left;
+    margin-bottom: -20px;
+    margin-left: 15px;
+}
+
+/*Login Styling*/
+.login-view{
+    overflow-y: hidden;
+    height: 100%;
+    width: 100%;
+    background: url('../../Colab Background 1.png'), linear-gradient(180deg, #1C6B85 10%, #071013 100%), #F4F6F6;
+    background-repeat:no-repeat;
+    background-position: bottom;
+}
+.logging-in{
+    margin-top: 200px;
+}
+.login-container{
+    position: relative;
+    top: 100px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+    background-color: #f4f6f6;
+    border-radius: 3px;
+    border: 3px solid #071013;
+    z-index: 1000;
+}
+.back-arrow{
+    position: absolute;
+    left: 015px;
+    top: 0px;
+}
+.login-logo{
+    max-width: 100%;
+    position: relative;
+    margin-top: -10px;
+    margin-bottom: -20px;
+    height: 150px;
+}
+.background-login{
+    max-width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+.input-field{
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    font-size: 1rem;
+    outline-color: #ff9505;
+    border: 1.5px solid #071013;
+    box-shadow: 1.5px 1.75px 3px black;
+    
+}
+
+.input-error{
+    height: 40px;
+    border-radius: 3px;
+    border: 2px solid #d7263d;
+    outline-color: #ff9505;
+    margin-bottom: px;
+    color: #d7263d;
+    box-shadow: 1.5px 1.75px 3px black;
+}
+
+.required-field{
+    font-size: .75rem;
+    margin-top: .5px;
+    margin-bottom: 5px;
+    text-align: left;
+    color: #d7263d;;
+}
+
+.error-message{
+    color: #d7263d;
+}
+button{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #e98902;
+    box-shadow: 1px 2px 7px #071013;
+}
+h1{
+    margin-bottom: 10px;
+}
+
+@media(max-width:995){
+    .login-container{
+        margin-top:-5px;
+    }
+
+}

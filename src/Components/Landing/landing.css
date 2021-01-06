@@ -1,0 +1,141 @@
+/* Page Colors: 
+White: f4f6f6
+Blue: 66fcf1
+orange: ff9505
+scarlet: d7263d
+black: 071013 */
+*{
+    font-family: Roboto Condensed;
+    color: black;
+}
+.landing{
+    display: flex;
+    flex-direction: row;
+    max-width:100vw;
+    height: 100vh;
+}
+
+.landing-background{
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
+.welcome-banner{
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-position: bottom;
+    background-size: 700px;
+    background-repeat: no-repeat;
+}
+
+.colab-logo{
+    width: 300px;
+}
+
+button{
+    width: 400px;
+    height: 39px;
+    background-color: #ff9505;
+    outline:none;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 2px 5px #071013;
+    margin-bottom: 20px;
+    font-family: Roboto Condensed;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    z-index: 1;
+}
+.register-button{
+    background-color: #ff9505;
+    margin-bottom: 20px;
+    z-index: 1;
+}
+.register-button:hover{
+    background-color: #ec900f;
+    cursor: pointer;
+}
+.register-button:active{
+    background-color: #ff9505;
+}
+.login-button{
+    background-color: #f4f6f6;
+    margin-bottom: 15px;
+    z-index: 1;
+}
+.login-button:hover{
+    cursor: pointer;
+    background-color: #e2dcdc;
+}
+.text-box{
+    margin-bottom: 15px;
+    width: 700px;
+}
+
+h1{
+    text-transform: uppercase;
+    color: #ff9505;
+    margin-bottom: -15px;
+    z-index: 1000;
+}
+
+h2{
+    color: #f4f6f6;
+    font-weight:300;
+    text-transform: uppercase;
+    z-index: 1000;
+}
+.banner-margin{
+    margin-bottom: 20px;
+}
+
+@media(max-width: 970px){
+    .colab-logo{
+        width: 150px;
+    }
+    .welcome-banner{
+        width: 350px;
+        overflow: hidden;
+        background: url('../../Colab\ Phone\ Background\ 1.png'),linear-gradient(180deg, #1C6B85 10%, #071013 100%), #F4F6F6;
+        background-position: bottom;
+        background-size: 350px;
+        background-repeat: no-repeat;
+        padding-top: 250px;
+    }
+
+    .landing-background{
+        width: 700px;
+    }
+
+    h1{
+        font-size: 1rem;
+    }
+    h2{
+        font-size: .75rem;
+    }
+   .register-button{
+        width: 200px;
+        height: 25px;
+    }
+    .login-button{
+        width: 200px;
+        height: 25px;
+    }
+}
+
+@media(max-height: 600px){
+    .welcome-banner{
+        width: 350px;
+        overflow: hidden;
+        background: url('../../Colab\ Phone\ Background\ 1.png'),linear-gradient(180deg, #1C6B85 10%, #071013 100%), #F4F6F6;
+        background-position: bottom;
+        background-size: 350px;
+        background-repeat: no-repeat;
+        padding-top: 0px;
+    }
+}

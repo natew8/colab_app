@@ -1,0 +1,51 @@
+.page{
+    position: relative;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background: url('../../Colab\ Background\ 1.png'),linear-gradient(170deg, #1C6B85 15%, #071013 91.17%), #F4F6F6;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+/*Header*/
+.lab-header{
+    background-color: #11323e;
+    width: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0px 7px;
+    height: 100vh;
+}
+
+.lab-header-logo{
+    height: 60px;
+}
+
+.lab-user-info{
+    max-width: 30em;
+    display: flex;
+    padding: 10px;
+    margin-right: 10px;
+    flex-direction: column;
+}
+.lab-default-pic{
+    width: 60px;
+    height: 60px;
+    border: 2px solid #ff9505;
+    border-radius: 50px;
+    padding: 0px;
+}
+
+
+/*Waveform display*/
+.wave-display{
+    background-color: springgreen;
+    position: absolute;
+    top: 2rem;
+    left: 10rem;
+    right: 4rem;
+    height: 25rem;
+}

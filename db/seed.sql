@@ -63,3 +63,10 @@
 -- comment VARCHAR,
 -- date_created DATE
 -- )
+
+-- DELETE FROM projects_users;
+-- DELETE FROM comments;
+-- DELETE FROM conversations;
+-- DELETE FROM songs;
+-- DELETE FROM projects;
+-- DELETE FROM colab_user;

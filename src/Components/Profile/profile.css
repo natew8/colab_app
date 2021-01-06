@@ -1,0 +1,93 @@
+.profile{
+    background:  url('../../Colab\ Background\ 1.png'),linear-gradient(170deg, #1C6B85 15%, #071013 91.17%), #F4F6F6;
+    height: 100vh;
+    width: 100vw;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+
+.profile-view{
+    position: relative;
+    max-width: 1300px;
+    padding: 0px 15px;
+    height: 82vh;
+    margin-top: 30px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: #11323e55; */
+    border-radius: 3px;
+    /* border: 1px solid #c6c6c655; */
+}
+.nav-container{
+    position: absolute;
+    width: 100vw;
+    height: 2.88rem;
+    margin-top: 20px;
+    border-bottom: 2.9px solid #071013;
+    box-sizing: border-box;
+}
+.nav-list{
+    max-width: 800px;
+    left: 35rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    position: absolute;
+    top: -2.5px;
+}
+.nav-item{
+    height: 1.25em;
+    font-size: 1.5rem;
+    margin-right: 60px;
+    color: #f4f6f6;
+    border-bottom: 2.9px solid #071013;
+}
+.nav-item:hover{
+    border-bottom: 2.9px solid #ff9505;
+    cursor: pointer;
+    color: #ff9505;
+    height: 1.25em;
+    font-size: 1.5rem;
+    margin-right: 60px;
+}
+.is-active{
+    height: 1.25em;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #ff9505;
+}
+
+.side-bar{
+    position: absolute;
+}
+
+.projects-title{
+    max-width: 1055px;
+    margin-top: 27px;
+    margin-left: auto;
+    text-align: left;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.new-project-button{
+    width: 10rem;
+    height: 1.5rem;
+    margin-bottom: 0;
+    margin-left: -40.5rem;
+    margin-top: 70px;
+}
+
+
+@media(max-width:750px){
+    .profile{
+        background: url('../../Colab\ Phone\ Background\ 1.png') linear-gradient(170deg, #1C6B85 15%, #071013 91.17%), #F4F6F6;
+        height: 100vh;
+        width: 100vw;
+        background-position: bottom;
+        background-repeat: no-repeat;
+    }
+}

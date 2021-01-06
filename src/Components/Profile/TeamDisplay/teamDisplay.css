@@ -1,0 +1,70 @@
+.container-team{
+    position: absolute;
+    padding: 0px 7px 7px;
+    border: 1px solid #f6f6f688;
+    border-radius: 3px;
+    top: 25.2rem;
+    background-color: #f4f6f6;
+    box-shadow: 2px 5px 7px #071013;
+    max-height: 24.2rem;
+    overflow-y: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.container-team::-webkit-scrollbar{
+    display: none;
+}
+
+.team-list-header{
+    margin-top: -10px;
+    position: sticky;
+    top: 0px;
+    background-color: #f4f6f6;
+    padding-top: 3px;
+    z-index: 1;
+}
+.your-team{
+    color: #071013;
+    font-size: 1rem;
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 1px;
+}
+
+.user-info-line-team{
+    border: 1px solid #071013;
+    margin-top: 5px;
+}
+.team-list-item{
+    margin-bottom: 10px;
+    height: 3.25rem;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    width: 13.2rem;
+    border: .5px solid #c6c6c6;
+    border-radius: 5px;
+}
+.team-default-pic{
+    width: 2rem;
+    height: 2rem;
+    margin-left: 5px;
+    margin-right: 10px;
+    border-radius: 50% 50%;
+    border: 1px solid #ff9505;
+    filter: invert(0);
+}
+
+.team-display-username{
+    color: #071013;
+    font-weight: 500;
+}
+
+/* .message-icon{
+    position: absolute;
+    right: 15px;
+    width: 1.5rem;
+    margin-left: 50px;
+} */
+

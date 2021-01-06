@@ -1,0 +1,37 @@
+.colab-header{
+    background-color:#11323e ;
+    position: relative;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+}
+
+.header-logo{
+    margin-left: 20px;
+    position: relative;
+    height: 60px;
+}
+
+.user-info{
+    display: flex;
+    flex-direction: column;
+}
+.profile-pic{
+    
+}
+
+.default-pic{
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+    margin-top: 3px;
+    
+}
+.header-username>h2{
+    color: #f4f6f6;
+    font-family: Roboto Condensed;
+    font-weight: bold;
+}
